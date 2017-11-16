@@ -1,5 +1,11 @@
 <?php
-
+/**
+ * cmbOption - Metabox Helper for custom options
+ *  
+ * @author Daniel Drabik (daniel.drabik@outlook.com)
+ * @version 0.2
+ * 
+ */
 class cmbOption {
 
 	public $prefix;
@@ -11,6 +17,7 @@ class cmbOption {
 	private $tabsSetting;
 	private $currentTab = null;
 	private $currentTabPrefix;
+	private $lang = '';
 
 	private $currentField = null;
 
@@ -42,6 +49,11 @@ class cmbOption {
 	}
 
 	public function addTab($prefix, $title) {
+
+		if(function_exists('pll_current_language')) 
+			$this->lang = pll_current_language() . '_';
+
+		$prefix = $this->lang . $prefix;
 
 		if($this->currentField != null) {
 			$this->currentTab['fields'][] = $this->currentField;
