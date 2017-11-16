@@ -2,7 +2,13 @@
 Easier, quicker and cleaner way to create CMB2 Tabs and Fields.
 
 # Installation:
-@TODO
+ 1. Add files from the repository to your theme's directory
+ 2. Add:
+    ```php
+    include 'cmb-helper.php';
+    ```
+    To your functions.php
+ 3. Now you can start creating custom fields much quicker and simpler 
 
 
 # Requirements:
