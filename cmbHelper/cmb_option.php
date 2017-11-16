@@ -1,11 +1,5 @@
 <?php
-/**
- * cmbOption - Metabox Helper for custom options
- *  
- * @author Daniel Drabik (daniel.drabik@outlook.com)
- * @version 0.2
- * 
- */
+
 class cmbOption {
 
 	public $prefix;
