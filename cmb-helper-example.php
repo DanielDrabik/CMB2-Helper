@@ -86,3 +86,4 @@ function page_() {
       */
     $cmb = new_cmb2_box($cmb_helper->generateCMB());
     $cmb->add_field($cmb_helper->generateTabs()); 
+}
