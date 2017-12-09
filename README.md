@@ -2,10 +2,10 @@
 Easier, quicker and cleaner way to create CMB2 Tabs and Fields.
 
 # Index
-* [What is this for?](https://github.com/DanielDrabik/CMB2-Helper#what-is-this-for)
-* [Example](https://github.com/DanielDrabik/CMB2-Helper#example)
-* [Requirements](https://github.com/DanielDrabik/CMB2-Helper#requirements)
-* [Installation](https://github.com/DanielDrabik/CMB2-Helper#installation)
+* [What is this for?](#what-is-this-for)
+* [Example](#example)
+* [Requirements](#requirements)
+* [Installation](#installation)
 
 # What is this for?
 Creating custom fields with CMB2 (while using tabs*) can be painful. Code gets bigger and dirtier with each field and tab added.
